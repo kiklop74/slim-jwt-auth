@@ -1,5 +1,5 @@
 {
-    "name": "tuupola/slim-jwt-auth",
+    "name": "kiklop74/slim-jwt-auth",
     "description": "PSR-7 and PSR-15 JWT Authentication Middleware",
     "keywords": [
         "psr-7",
@@ -9,7 +9,7 @@
         "json",
         "auth"
     ],
-    "homepage": "https://github.com/tuupola/slim-jwt-auth",
+    "homepage": "https://github.com/kiklop74/slim-jwt-auth",
     "license": "MIT",
     "authors": [
         {
@@ -22,7 +22,7 @@
     "require": {
         "php": "^7.4|^8.0",
         "psr/log": "^1.0|^2.0|^3.0",
-        "firebase/php-jwt": "^3.0|^4.0|^5.0",
+        "firebase/php-jwt": "^6.0",
         "psr/http-message": "^1.0|^2.0",
         "tuupola/http-factory": "^1.3",
         "tuupola/callable-handler": "^1.0",
@@ -48,7 +48,8 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-3.x": "3.0.x-dev"
+            "dev-3.x": "3.0.x-dev",
+            "dev-upgrade": "upgrade-dev"
         }
     }
 }
